@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0";>
+        <meta charset="UTF-8">
+        <title>Johnny's Portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="portfolio.js"></script>
+        <style>
+            @media (min-width: 0px) { 
+                body {
+                    background-attachment: fixed;
+                    background-image: url("prismatic-globe-database-xnom187ixkelq5gn.jpg");
+            }
+        }
+        </style>
+        <h1 id="jay">Adoscey</h1> 
+    </head>
+    <body> 
+        <section id="Start">
+            <div id="nav_div">
+                <nav> 
+                    <a href="#projects_section">Projects</a>
+                    <a href="#experience_section">Experience</a>
+                    <a href="#about_section">About</a>
+                </nav>
+            </div>
+            <div id= startid>
+                <h1 id="title">Johnny Burroughs</h1>
+                <h5 id="swe">Software Engineer | Search Quality Rater</h5>
+                <div id="linkedin">
+                    <a href="https://www.linkedin.com/in/johnny-burroughs-iii-7a5928185/">
+                        <img src="linkedinwhite.png" alt="linkedinwhite" style="height: 40px; width: 40px;">
+                    </a>
+                </div>
+                <div id="github">
+                    <a href="https://github.com/AdeyChan">
+                        <img src="github.png" alt="githubwhite" style="height: 43px; width: 45px;">
+                    </a>
+                </div>
+            </div> 
+            <div class="container">
+                <div class="slideshow-container">
+                    <div class="image-gallery">
+                        <div class="image-container">
+                        <img src="black.jpg" >
+                        </div>
+                        <div class="image-container">
+                        <img src="black2.jpg" >
+                        </div>
+                        <div class="image-container">
+                            <img src="black3.jpg">
+                        </div>         
+                    </div>
+            
+                    <a class="prev-img" onclick="slides(-1)">❮</a>
+                    <a class="next-img" onclick="slides(1)">❯</a>
+                </div>
+                
+                <div class="bottom-img-container">
+                    <img class="bottom-img current-bottom-img" 
+                         src="black.jpg" onclick="activeSlides(1)">
+                    <img class="bottom-img" 
+                         src="black2.jpg" onclick="activeSlides(2)">
+                    <img class="bottom-img" 
+                         src="black3.jpg" onclick="activeSlides(3)">
+                </div>
+            </div>      
+        </section>
+        <section id="Projects">
+            <a href="projectsfolder.html" style="text-decoration: none;">
+                <h3 id="projects_section">Projects</h3>
+            </a>
+        </section>
+        <section id="Experience"> 
+            <h3 id="experience_section">Experience</h3> 
+            <div class="expdiv">
+                <h6 class="april">Dec 2024 - Present</h6> <h4 class="april">Mosaiq Software Engineer Intern</h4> <h5 class="april" class="myexp";>Develop, test, and maintain code<br>Collaborate with other engineers and team members to refine requirements and design solutions.<br>Troubleshoot and resolve technical issues efficiently.<br>Write and review code to ensure adherence to coding standards and best practices.</h5>
+            </div>
+            <div class="expdiv">
+                <h6 class="april">Dec 2024 - Present</h6> <h4 class="april"> WeLocalize Search Quality Rater</h4> <h5 class="april" class="myexp";>Evaluate the relevance, accuracy, and quality of search engine results and web content according to established guidelines.<br> Provide critical insights to improve search algorithms and enhance user experience.<br>Conduct detailed analysis of search queries, webpages, and advertisements with a focus on relevance and content quality.<br> Maintain a high level of confidentiality and professionalism while delivering consistent, high-quality evaluations.</h5>
+            </div>
+            <div class="expdiv">
+                <h6 class="april">Dec 2024 - Present</h6> <h4 class="april">WGU Insights Student Council</h4> <h5 class="april" class="myexp";>Provide feedback through surveys and interviews to improve the student experience at Western Governors University (WGU).<br>Collaborate with council members and university leadership to represent the voice of the student body.<br>Utilize strong communication and analytical skills to enhance academic programs and support services.<br>Contribute to discussions regarding educational improvements and student satisfaction strategies.</h5>
+            </div>
+        </section>
+        <section id="About">
+            <h3 id="about_section">About</h3>
+            <div id="aboutid">
+            <h4 id="aboutme">Hi, i'm Johnny Burroughs III. I'm an aspiring Software Engineer transitioning from a background in leadership, customer service, and IT support. Currently pursuing a Bachelor's in Software Engineering. Skilled in team leadership, effective communication, and problem-solving. Eager to apply academic knowledge and gain hands-on experience in software development to contribute to innovative solutions. Enthusiastic about learning and growing in areas such as cybersecurity and software engineering principles.</h4>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,4 +1,8 @@
-@media (max-width: 992) {
+@media (max-width: 1690px) {
+    body {
+        background-attachment: fixed;
+        background-image: url("prismatic-globe-database-xnom187ixkelq5gn.jpg");
+    }
     #Start {
         height:690px;
     }
@@ -39,141 +43,141 @@
         margin:50px auto;
     }
     #class {
-    height:550px;
-    width:800px;
-}
-#image {
-    height:550px;
-    width:800px;
-    margin:0 auto;
-}
-.expdiv {
-    height: 200px;
-    width: 670px;
-    border-radius: 10px;
-    margin: 0 auto;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.expdiv:hover {
-    background-color: rgba(255,255,255,0.1);
-    transform: translateY(-20px);
-    box-shadow: 0px 8px 16px rgba(0,0,0,1);
-}
-.april {
-    display: inline-block;
-    color: white;
-}
-.myexp {
-    margin: auto;
-    white-space: normal;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    padding: -10px 0;
-}
-#aboutme {
-    text-align: center;
-    color: white;
-}
-#aboutid {
-    height: 200px;
-    width: 800px;
-    margin: 0 auto;
-}
-#linkedin {
-    align-self: left;
-    margin: 0 13px;
-    width: 50px;
-}
-#github {
-    align-self: left;
-    margin: -46px 58px;
-    width: 50px;
-}
-#startid {
-    width: 360px;
-    position: fixed;
-}
-#start_section {
-    text-align: center;
-    color: white;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 50%;
-    margin: 0 auto;
-}
-.slideshow-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-.image-gallery {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-.image-container {
-    width: 100%;
-    height: 100%;
-}
-.image-container img {
-    width: 100%;
-    height: 100%;
-}
-.prev-img, .next-img {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-}
-.next-img {
-    right: 0;
-}
-.prev-img:hover, .next-img:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-.bottom-img-container {
-    text-align: center;
-    margin-top: 20px;
-}
-.bottom-img {
-    height: 40px; 
-    width: 50px; 
-    margin: 0 10px; 
-    cursor: pointer;
-    opacity: 0.5; 
-}
-.bottom-img.current-bottom-img {
-    opacity: 1; 
-}
-#projects_section {
-    margin: 0 auto;
-    width: 100px;
-    text-align: center; 
-    color: white;
-    transition: transform 0.3s ease;
-}
-#projects_section:hover {
-    transform: translateY(-20px);
-}
-#experience_section {
-    text-align: center; 
-    color: white;
-}
-#about_section {
+        height:550px;
+        width:800px;
+    }
+    #image {
+        height:550px;
+        width:800px;
+        margin:0 auto;
+    }
+    .expdiv {
+        height: 200px;
+        width: 670px;
+        border-radius: 10px;
+        margin: 0 auto;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .expdiv:hover {
+        background-color: rgba(255,255,255,0.1);
+        transform: translateY(-20px);
+        box-shadow: 0px 8px 16px rgba(0,0,0,1);
+    }
+    .april {
+        display: inline-block;
+        color: white;
+    }
+    .myexp {
+        margin: auto;
+        white-space: normal;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        padding: -10px 0;
+    }
+    #aboutme {
+        text-align: center;
+        color: white;
+    }
+    #aboutid {
+        height: 200px;
+        width: 800px;
+        margin: 0 auto;
+    }
+    #linkedin {
+        align-self: left;
+        margin: 0 13px;
+        width: 50px;
+    }
+    #github {
+        align-self: left;
+        margin: -46px 58px;
+        width: 50px;
+    }
+    #startid {
+        width: 360px;
+        position: fixed;
+    }
+    #start_section {
+        text-align: center;
+        color: white;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .slideshow-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    .image-gallery {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .image-container {
+        width: 100%;
+        height: 100%;
+    }
+    .image-container img {
+        width: 100%;
+        height: 100%;
+    }
+    .prev-img, .next-img {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+    }
+    .next-img {
+        right: 0;
+    }
+    .prev-img:hover, .next-img:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .bottom-img-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .bottom-img {
+        height: 40px; 
+        width: 50px; 
+        margin: 0 10px; 
+        cursor: pointer;
+        opacity: 0.5; 
+    }
+    .bottom-img.current-bottom-img {
+        opacity: 1; 
+    }
+    #projects_section {
+        margin: 0 auto;
+        width: 100px;
+        text-align: center; 
+        color: white;
+        transition: transform 0.3s ease;
+    }
+    #projects_section:hover {
+        transform: translateY(-20px);
+    }
+    #experience_section {
+        text-align: center; 
+        color: white;
+    }
+    #about_section {
     text-align: center; 
     color: white; 
-}
-html {
-    scroll-behavior: smooth;
-}
+    }
+    html {
+        scroll-behavior: smooth;
+    }
 }

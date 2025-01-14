@@ -1,8 +1,17 @@
+@font-face {
+    font-family: "Audiowide, san-serif";
+    src: url(https://fonts/googleapis.com/css?family=Audiowide);
+}
+head {
+    font-family: "Audiowide", san-serif;
+}
+body {
+    font-family: "Audiowide", san-serif;
+}
 @media (max-width: 1690px) {
     body {
         background-attachment: fixed;
         background-image: url("prismatic-globe-database-xnom187ixkelq5gn.jpg");
-        font-family: "Audiowide", san-serif;
     }
     #Start {
         height:690px;
@@ -186,7 +195,6 @@
     body {
         background-attachment: fixed;
         background-image: url("prismatic-globe-database-xnom187ixkelq5gn.jpg");
-        font-family: "Audiowide", san-serif;
     }
     #Start {
         height:690px;

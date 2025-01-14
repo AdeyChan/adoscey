@@ -1,44 +1,44 @@
-#Start {
-    height:690px;
-}
-#Projects {
+@media (max-width: 992) {
+    #Start {
+        height:690px;
+    }
+    #Projects {
     height: 400px;
-}
-#jay { 
-    text-align: left;
-    color: white; 
-    font-size: 35px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-nav a {
-    margin: 0 20px;
-    color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#nav_div {
-    width: 303px;
-    margin: 0 1197px;
-}
-#title {
-    color: white;
-    margin: 0 15px;
-    font-size: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#swe {
-    text-align: left;
-    color: white;
-    margin: 0 14px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.projects {
-    background-color: white;
-    height:550px;
-    width:800px;
-    margin:50px auto;
-}
-#class {
+    }
+    #jay { 
+        text-align: left;
+        color: white; 
+        font-size: 35px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    nav a {
+        margin: 0 20px;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #nav_div {
+        width: 303px;
+        margin: 0 1197px;
+        }
+    #title {
+        color: white;
+        margin: 0 15px;
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #swe {
+        text-align: left;
+        color: white;
+        margin: 0 14px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .projects {
+        background-color: white;
+        height:550px;
+        width:800px;
+        margin:50px auto;
+    }
+    #class {
     height:550px;
     width:800px;
 }
@@ -175,4 +175,5 @@ nav a {
 }
 html {
     scroll-behavior: smooth;
+}
 }

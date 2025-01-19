@@ -1,10 +1,3 @@
-
-head {
-    font-family: "Audiowide", san-serif;
-}
-body {
-    font-family: "Audiowide", san-serif;
-}
 @media (max-width: 1690px) {
     body {
         background-attachment: fixed;
@@ -92,16 +85,6 @@ body {
         width: 800px;
         margin: 0 auto;
     }
-    #linkedin {
-        align-self: left;
-        margin: 0 13px;
-        width: 50px;
-    }
-    #github {
-        align-self: left;
-        margin: -46px 58px;
-        width: 50px;
-    }
     #startid {
         width: 360px;
         position: fixed;
@@ -109,6 +92,13 @@ body {
     #start_section {
         text-align: center;
         color: white;
+    }
+    .fa-github {
+        font-size: 0.73em;
+    }
+    .fa-linkedin{
+        margin: 0 -5px;
+        font-size: 0.73em;
     }
     .container{
         display: flex;

@@ -1,5 +1,5 @@
 #myprojects {
-    text-align: center; 
+    text-align: center;
     color: white; 
 }
 nav a {
@@ -7,11 +7,6 @@ nav a {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
-#topbar {
-    display: inline-block;
-    width: 1600px;
-    height: 60px;
 }
 #topbar2 {
     margin: -64px 0;

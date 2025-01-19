@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "Audiowide, san-serif";
-    src: url(https://fonts/googleapis.com/css?family=Audiowide);
-}
+
 head {
     font-family: "Audiowide", san-serif;
 }
@@ -28,11 +25,12 @@ body {
     nav a {
         margin: 0 20px;
         color: white;
+        display: inline-block;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     #nav_div {
-        width: 303px;
-        margin: 0 1197px;
+        width: 320px;
+        margin: 0 1180px;
         }
     #title {
         color: white;

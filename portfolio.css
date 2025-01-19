@@ -1,13 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @media (max-width: 1690px) {
+    head {
+        font-family: 'Poppins', san-serif;
+    }
     body {
         background-attachment: fixed;
         background-image: url("prismatic-globe-database-xnom187ixkelq5gn.jpg");
+        font-family: 'Poppins', san-serif;
+
     }
     #Start {
         height:690px;
     }
     #Projects {
     height: 400px;
+    }
+    #Projects::after {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 4px;
+        background-color: white;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2px;
     }
     #jay { 
         text-align: left;
@@ -75,6 +92,7 @@
         word-wrap: break-word;
         word-break: break-word;
         padding: -10px 0;
+        font-size: 1rem;
     }
     #aboutme {
         text-align: center;
@@ -119,6 +137,11 @@
         justify-content: space-around;
         width: 50%;
         margin: 0 auto;
+    }
+    .blur {
+        position: absolute;
+        box-shadow: 0 0 1000px 50px #1d4ed8;
+        z-index: -100;
     }
     .slideshow-container {
         position: relative;

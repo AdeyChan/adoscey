@@ -86,13 +86,12 @@
         color: white;
     }
     .myexp {
-        margin: auto;
+        margin: 0 auto;
         white-space: normal;
         overflow-wrap: break-word;
-        word-wrap: break-word;
-        word-break: break-word;
-        padding: -10px 0;
-        font-size: 1rem;
+     }
+    #expdiv2 {
+        background-color: black;
     }
     #aboutme {
         text-align: center;

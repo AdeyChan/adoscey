@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @media (max-width: 1690px) {
+    * {
+        padding: 0; 
+        margin: 0;
+        outline: 0;
+        border: none;
+        box-sizing: border-box;
+    }
+    a {
+        text-decoration: none;
+    }
     head {
         font-family: 'Poppins', san-serif;
     }
@@ -7,6 +17,41 @@
         background-color: #18181b;
         font-family: 'Poppins', san-serif;
 
+    }
+    nav {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto; 
+        padding: 1rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        text-align: center;
+    }
+    .nav-links {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    .link a {
+        position: relative;
+        padding-bottom: 0.75rem;
+        color: white;
+    }
+    .link a::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 0;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        transition: all 0.3s ease;
+    }
+    .link a:hover::after{
+        width: 100%;
     }
     #Start {
         height:690px;
@@ -44,16 +89,6 @@
         font-size: 35px;
 
     }
-    nav a {
-        margin: 0 20px;
-        color: white;
-        display: inline-block;
-
-    }
-    #nav_div {
-        width: 320px;
-        margin: 0 1180px;
-        }
     #title {
         color: white;
         margin: 0 15px;
@@ -231,15 +266,6 @@
         font-size: 35px;
 
     }
-    nav a {
-        margin: 0 20px;
-        color: white;
-
-    }
-    #nav_div {
-        width: 303px;
-        margin: 0 1197px;
-        }
     #title {
         color: white;
         margin: 0 15px;
@@ -284,7 +310,7 @@
         color: white;
     }
     .myexp {
-        margin: auto;
+        margin: 20px;
         white-space: normal;
         overflow-wrap: break-word;
         word-wrap: break-word;

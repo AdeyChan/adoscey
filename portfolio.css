@@ -4,8 +4,7 @@
         font-family: 'Poppins', san-serif;
     }
     body {
-        background-attachment: fixed;
-        background-image: url("prismatic-globe-database-xnom187ixkelq5gn.jpg");
+        background-color: #18181b;
         font-family: 'Poppins', san-serif;
 
     }
@@ -18,13 +17,23 @@
     #Experience {
         height: 720px;
     }
+    #experience_section::after {
+        content: '';
+        position: absolute;
+        width: 120px;
+        height: 4px;
+        background-color: white;
+        bottom: -325px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2px;
+    }
     #Projects::after {
         content: '';
         position: absolute;
         width: 100px;
         height: 4px;
         background-color: white;
-        bottom: -8px;
         left: 50%;
         transform: translateX(-50%);
         border-radius: 2px;
@@ -33,13 +42,13 @@
         text-align: left;
         color: white; 
         font-size: 35px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
     nav a {
         margin: 0 20px;
         color: white;
         display: inline-block;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
     #nav_div {
         width: 320px;
@@ -49,13 +58,13 @@
         color: white;
         margin: 0 15px;
         font-size: 30px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
     #swe {
         text-align: left;
         color: white;
         margin: 0 14px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
     .projects {
         background-color: white;
@@ -73,7 +82,7 @@
         margin:0 auto;
     }
     .expdiv {
-        padding: 7px;
+        padding: 9px;
         height: 200px;
         width: 670px;
         border-radius: 10px;
@@ -220,12 +229,12 @@
         text-align: left;
         color: white; 
         font-size: 35px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
     nav a {
         margin: 0 20px;
         color: white;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
     #nav_div {
         width: 303px;
@@ -235,13 +244,13 @@
         color: white;
         margin: 0 15px;
         font-size: 30px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
     #swe {
         text-align: left;
         color: white;
         margin: 0 14px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
     .projects {
         background-color: white;

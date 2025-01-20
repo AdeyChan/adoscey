@@ -87,11 +87,9 @@
     }
     .myexp {
         display: inline-block;
-        white-space: normal;
-        overflow-wrap: break-word;
      }
     #expdiv2 {
-        background-color: black;
+        
     }
     #aboutme {
         text-align: center;

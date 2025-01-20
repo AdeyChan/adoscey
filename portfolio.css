@@ -21,7 +21,7 @@
         width: 100px;
         height: 4px;
         background-color: white;
-        bottom: -10px;
+        bottom: -8px;
         left: 50%;
         transform: translateX(-50%);
         border-radius: 2px;
@@ -84,12 +84,6 @@
     .april {
         display: inline-block;
         color: white;
-    }
-    .myexp {
-        display: inline-block;
-     }
-    #expdiv2 {
-        
     }
     #aboutme {
         text-align: center;
@@ -261,7 +255,7 @@
         margin:0 auto;
     }
     .expdiv {
-        height: 200px;
+        height: 400px;
         width: 670px;
         border-radius: 10px;
         margin: 0 auto;

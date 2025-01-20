@@ -86,7 +86,7 @@
         color: white;
     }
     .myexp {
-        margin: 0 auto;
+        display: inline-block;
         white-space: normal;
         overflow-wrap: break-word;
      }

@@ -13,7 +13,10 @@
         height:690px;
     }
     #Projects {
-    height: 400px;
+        height: 400px;
+    }
+    #Experience {
+        height: 720px;
     }
     #Projects::after {
         content: '';
@@ -70,6 +73,7 @@
         margin:0 auto;
     }
     .expdiv {
+        padding: 7px;
         height: 200px;
         width: 670px;
         border-radius: 10px;
